@@ -1,0 +1,53 @@
+.product-list {
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-name {
+    font-size: 1.25rem;
+    margin: 10px 0;
+  }
+  
+  .product-category, .product-price {
+    color: #666;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #ff0000;
+  }
+
+  .product-image {
+    width: 100%;
+    height: auto; /* Rasmning nisbati saqlanishi uchun */
+    border-radius: 8px;
+    object-fit: cover; /* Rasmni konteynerga to'g'ri joylashtiradi */
+  }
+  
+  
